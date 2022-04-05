@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.box{
+    background: #090a11;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+}
+
+.box_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0px 5% 0 5%;
+}
+
+.box_cab-titulo{
+    color: #c3073f;
+}
+
+.box_cab-nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cab-nav-ul-li{
+    padding: 10px;
+    color: #c5c6c7;
+}
