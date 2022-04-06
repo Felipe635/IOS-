@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: linear-gradient(#090a11, #242935);
 }
 
 .box{
@@ -29,3 +30,58 @@ body{
     padding: 10px;
     color: #c5c6c7;
 }
+
+.section_img-banner{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    margin: 1% 10% 0 10%;
+    align-items: center;
+}
+
+.container_img{
+    width: 40%;
+}
+
+.container_titulo{
+    text-align: center;
+    color: white;
+}
+
+.container_p{
+    text-align: justify;
+    margin: 25px;
+    color: white;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1% 10% 0 10%;
+    align-items: center;
+}
+
+.container_img_2{
+    width: 35%;
+}
+
+.rodape_titulo{
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.rodape_imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape_p{
+    color: white;
+    text-align: center;
+    margin: 1% 15% 2% 15%;
+}
+
+
